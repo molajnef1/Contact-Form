@@ -1,0 +1,51 @@
+
+body{
+    background-color: #5D699E;
+}
+main{
+    width: 28rem;
+    background-color: #FFE69C;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 18px;
+    font-weight: 700;
+}
+form > *{
+    margin: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+form button{
+    border: none;
+    padding: 1rem;
+    background-color: #EBCF79;
+    width: 50%;
+    margin-left: auto;;
+}
+form button:hover{
+    background-color: #af9a59 ;
+    cursor: pointer;
+}
+form input, form textarea{
+    border: none;
+    background-color: #EBCF79;
+    resize: none;
+}
+
+@media screen and (maxs-width :600px) {
+    main{
+        width: 21.875rem;
+    }
+}
